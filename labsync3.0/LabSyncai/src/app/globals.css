@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0D0D0D;
+  --accent: #00FFE0;
+  --neon: #00FF41;
+  --danger: #FF3A5E;
+  --warning: #FFB800;
+  --success: #00FF41;
+  --card: #121212;
+  --card-hover: #1A1A1A;
+}
+
+body {
+  background-color: var(--background);
+  color: white;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-background font-medium py-2 px-4 rounded-full hover:opacity-90 transition-opacity;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border border-accent text-accent font-medium py-2 px-4 rounded-full hover:bg-opacity-10 hover:bg-accent transition-colors;
+  }
+  
+  .card {
+    @apply bg-card rounded-xl p-6 shadow-lg border border-gray-800;
+  }
+  
+  .card-hover {
+    @apply hover:bg-card-hover transition-colors duration-300;
+  }
+  
+  .input {
+    @apply bg-card-hover border border-gray-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-accent;
+  }
+  
+  .neon-glow {
+    @apply shadow-[0_0_10px_rgba(0,255,224,0.7)];
+  }
+  
+  .neon-text {
+    @apply text-accent;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--card);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neon);
+}
+
+/* Animations */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(0, 255, 224, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 255, 224, 0.9);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s infinite;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
