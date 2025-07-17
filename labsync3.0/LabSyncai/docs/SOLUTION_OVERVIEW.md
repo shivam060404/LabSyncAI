@@ -1,4 +1,4 @@
-# LabSyncAI: Solution Overview
+# LabSync.AI: Solution Overview
 
 ## Problem We're Solving
 
@@ -10,9 +10,9 @@ Modern healthcare generates a vast amount of medical data, including lab reports
 - Communication gaps (missed notifications, reminders, or follow-ups)
 - Barriers for users in low-resource settings or non-English speakers
 
-## Our Solution (LabSyncAI)
+## Our Solution (LabSync.AI)
 
-LabSyncAI is a unified platform that empowers users to securely manage, analyze, and understand their medical data. By leveraging AI, modern web technologies, and multi-channel communication, LabSyncAI bridges the gap between complex health data and actionable, personalized insights.
+LabSync.AI is a unified platform that empowers users to securely manage, analyze, and understand their medical data. By leveraging AI, modern web technologies, and multi-channel communication, LabSyncAI bridges the gap between complex health data and actionable, personalized insights.
 
 ## Key Features
 
@@ -44,4 +44,4 @@ LabSyncAI is a unified platform that empowers users to securely manage, analyze,
 
 ## Impact
 
-LabSyncAI democratizes access to health insights, making medical data actionable and understandable for everyone. It empowers users to take control of their health, supports early detection of health issues, and bridges gaps in communication and accessibility—especially for underserved populations.
+LabSync.AI democratizes access to health insights, making medical data actionable and understandable for everyone. It empowers users to take control of their health, supports early detection of health issues, and bridges gaps in communication and accessibility—especially for underserved populations.
