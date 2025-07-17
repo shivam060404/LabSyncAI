@@ -1,4 +1,4 @@
-# Problem Statement: What LabSync AI Solves
+# Problem Statement: What LabSync.AI Solves
 
 Modern healthcare generates vast amounts of medical data, including lab reports, diagnostic images, and health records. However, patients and healthcare providers often face significant challenges in managing, understanding, and acting on this data. These challenges include:
 
@@ -28,7 +28,7 @@ Modern healthcare generates vast amounts of medical data, including lab reports,
 
 ---
 
-# How LabSync AI Addresses These Problems
+# How LabSync.AI Addresses These Problems
 
 - **Centralizes health data** in a secure, user-friendly platform.
 - **Empowers users** with AI-driven analysis and personalized recommendations.
@@ -37,4 +37,4 @@ Modern healthcare generates vast amounts of medical data, including lab reports,
 - **Enables timely communication** via SMS and voice notifications.
 - **Optimizes for low-resource settings** to ensure inclusivity.
 
-LabSync AI bridges the gap between complex medical data and actionable, personalized health insights for everyone.
+LabSync.AI bridges the gap between complex medical data and actionable, personalized health insights for everyone.
