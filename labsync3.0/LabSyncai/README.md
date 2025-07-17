@@ -1,6 +1,6 @@
-# LabSync AI
+# LabSync.AI
 
-**LabSync AI** is a comprehensive medical report management and analysis platform. It empowers users to securely manage health data, analyze medical reports with AI, visualize trends, and receive personalized recommendations. The platform supports multi-language, low-resource mode, SMS/voice notifications, and regional reference ranges for a global user base.
+**LabSync.AI** is a comprehensive medical report management and analysis platform. It empowers users to securely manage health data, analyze medical reports with AI, visualize trends, and receive personalized recommendations. The platform supports multi-language, low-resource mode, SMS/voice notifications, and regional reference ranges for a global user base.
 
 ---
 
